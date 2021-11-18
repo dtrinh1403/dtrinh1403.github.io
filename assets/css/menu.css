@@ -1,0 +1,66 @@
+
+/* ============================main menu=============== */
+body{
+    background: url("..//images/wardrobe.jpeg.crdownload");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.main-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:900px;
+   text-transform: uppercase;
+   
+   
+   }
+   .menu-content{
+     text-align: center;
+     border: 4px solid white;
+     width: 50%;
+     height: 50%;
+     background-color: black;
+     opacity: 0.8;
+     color: white;
+     border-radius: 50px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+   }
+  
+   
+   .menu-button{
+       
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       opacity: 1;
+       
+   }
+
+
+   .menu-button a{
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: white;
+    color: white;
+    color: black;
+    margin-bottom: 20px;
+    text-decoration: none;
+   }
+   .menu-button a:hover{
+    background-color: rgb(218, 136, 149);
+    border-color: black;
+    color: white;
+   }
+   .menu-button a:nth-child(2){
+    padding: 10px 84px;
+   }
+   .menu-button a:nth-child(3){
+    padding: 10px 84px;
+   }
+   
